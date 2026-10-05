@@ -13,7 +13,7 @@ namespace SaludoApi.Controllers
         {
             return Ok(new
             {
-                mensaje = "Hola Mundo desde C# .NET 10 "
+                mensaje = "Hola Mundo  "
             });
         }
 
