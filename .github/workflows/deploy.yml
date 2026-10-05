@@ -1,0 +1,38 @@
+name: Deploy - Crear Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Generar Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Configurar .NET 7
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '7.0.x'
+
+      - name: Restaurar dependencias
+        run: dotnet restore SaludoApi.sln
+
+      - name: Publicar API
+        run: dotnet publish SaludoApi/SaludoApi.csproj -c Release -o ./publish
+
+      - name: Crear archivo ZIP
+        run: zip -r SaludoApi.zip ./publish
+
+      - name: Crear Release y subir Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: SaludoApi.zip
+          generate_release_notes: true
