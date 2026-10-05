@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "864cCgzKYu7ajmCG+wqs5kgExSvQE1d2cchExXrxdEg=",
+  "Source": "SaludoApi",
+  "BasePath": "_content/SaludoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

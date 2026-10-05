@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaludoApi", "SaludoApi\SaludoApi.csproj", "{E1145CE6-5885-439C-A5E8-BB72C5F48D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaludoApi.Tests", "SaludoApi.Tests\SaludoApi.Tests.csproj", "{3B4608AB-DF21-4DC5-9DD5-16CDA010986B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1145CE6-5885-439C-A5E8-BB72C5F48D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1145CE6-5885-439C-A5E8-BB72C5F48D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1145CE6-5885-439C-A5E8-BB72C5F48D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1145CE6-5885-439C-A5E8-BB72C5F48D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4608AB-DF21-4DC5-9DD5-16CDA010986B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4608AB-DF21-4DC5-9DD5-16CDA010986B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4608AB-DF21-4DC5-9DD5-16CDA010986B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4608AB-DF21-4DC5-9DD5-16CDA010986B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83BE4ADF-8D77-40AC-8978-4AE8CAB95E6D}
+	EndGlobalSection
+EndGlobal
